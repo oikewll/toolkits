@@ -1,0 +1,64 @@
+/*@import'http://1.goochin.sinaapp.com/svn/reset.css'*/
+@charset "utf-8";
+html{-moz-background-clip:border; -moz-background-inline-policy:continuous;-moz-background-origin:padding;color:#000;overflow-x:hidden;overflow-y:scroll;background:#fff;_background-image:url(about:blank);_background-attachment:fixed;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{font:12px "\5FAE\8F6F\96C5\9ED1", Verdana, Geneva, sans-serif, "\5B8B\4F53";}
+fieldset,img{border:none;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input,button,textarea,select{font-weight:inherit;font-size:100%;vertical-align:middle;outline:none;}
+button,input,textarea{font-family:Tahoma, Geneva, "\5B8B\4F53";font-size:12px;}
+button {cursor:pointer;outline:none; blr:expression(this.hideFocus=true);}
+textarea {overflow:auto;}
+article,aside,dialog,footer,header,section,nav,figure,menu,time,hgroup{display:block}
+table{border-collapse:collapse; border-spacing: 0;}
+.clearfix:after{content:"."; display:block; height:0;clear:both;visibility:hidden;}
+*html .clearfix{height:1%;}
+*+html .clearfix{height:1%;}
+::-webkit-scrollbar-track-piece{background-color:#fff;-webkit-border-radius:10;}
+::-webkit-scrollbar{width:12px;}
+::-webkit-scrollbar-thumb:vertical{background-color:#ddd;-webkit-border-radius:10px;outline:2px solid #fff;outline-offset:-2px;border: 2px solid #fff;border-radius:10;}
+::-webkit-scrollbar-thumb:hover{background-color:#cecece;-webkit-border-radius:10px;}/*滚动条的hover样式*/
+::-webkit-scrollbar-thumb:horizontal{width:5px;background-color:#ccc;-webkit-border-radius:10px;}/*水平滚动条的样式*/
+a{color:#000;text-decoration:none;outline:none;-moz-transition: all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+a:hover{text-decoration:underline;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{display:inline;float:left;}
+.fr{display:inline;float:right;}
+.relative{position:relative;}
+/* reset */
+.formType{width:430px;margin:50px auto 0 auto;}
+h1.slogen{font-size:22px;color:#333;margin-bottom:25px;border-bottom:1px solid #ddd;padding-bottom:5px;}
+h1.slogen span{display:inline-block;vertical-align:middle;font-size:12px;font-weight:normal;color:#2178CB;margin-left:5px;cursor:pointer;}
+.formType table td{vertical-align:middle;padding:5px 0;line-height:25px;color:#333;}
+	input#txt{float:left;width:300px;margin-right:10px;}
+.viewer{margin-bottom:20px;}
+.comWrap{height:100px;background:#efefef;clear:both;display:none;position:relative;margin-bottom:10px;}
+h4#url{position:relative;font-weight:bold;font-size:14px;top:40px;text-align:center;}
+h4#url.red{color:red;}
+h4#url a{font-weight:normal;font-size:14px;margin-left:10px;color:#2178CB;}
+h4#url span{font-weight:normal;font-size:12px;margin-left:10px;color:#999;}
+
+.loading{width:43px;height:11px;background:url(../images/loading.gif);position:absolute;left:50%;top:50%;margin:-5px 0 0 -21px;}
+.footer{display:block;width:100%;text-align:center;font-family:verdana;font-size:10px;color:#999;border-top:1px solid #ddd;padding:10px 0;position:fixed;bottom:0;background:#fff;box-shadow:0 0 20px rgba(0,0,0,0.2);}
+.footer a{color:#999;border-bottom:1px dashed #ddd;}
+* html .footer{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-this.offsetHeight-(parseInt(this.currentStyle.marginTop,10)||0)-(parseInt(this.currentStyle.marginBottom,10)||0)));}
+.taobaoiTems a.timg{display:block;width:146px;height:146px;overflow:hidden;float:left;border:1px solid #ddd;padding:1px;}
+.taobaoiTems a.timg img{width:150px;}
+.taobaoiTems ul{padding-left:160px;color:#999;}
+.taobaoiTems ul li{margin-bottom:10px;}
+.taobaoiTems ul li em{margin-right:20px;}
+.taobaoiTems ul li i{color:#333;}
+.taobaoiTems ul li span{color:#000;font-size:25px;font-family:'Georgia, Verdana, Helvetica';font-weight:bold;}
+.taobaoiTems ul li a{color:#0088cc;}
+.taobaoiTems ul li a:hover{color:#005580;}
+.taobaoiTems ul li h3{line-height:normal;}
+.taobaoiTems ul li h3 a{font-size:16px;display:inline-block;width:270px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+#help{padding-bottom:35px;}
+#help h4{font-size:14px;color:#555;margin-bottom:5px;}
+#help p{margin-bottom:15px;color:#666;line-height:19px;}
+#help p span{color:red;}
+

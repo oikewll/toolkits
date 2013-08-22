@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* reset*/
+html{-moz-background-clip:border; -moz-background-inline-policy:continuous;-moz-background-origin:padding;color:#000;overflow-x:hidden;overflow-y:scroll;background:#f6f6f6;_background-image:url(about:blank);_background-attachment:fixed;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{font:12px "\5FAE\8F6F\96C5\9ED1", Verdana, Geneva, sans-serif, "\5B8B\4F53";background:#f6f6f6;}
+fieldset,img{border:none;}
+ul,li{list-style:none;}
+em,i,cite{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input,button,textarea,select{font-weight:inherit;font-size:100%;vertical-align:middle;outline:none;}
+button,input,textarea{font-family:Tahoma, Geneva, "\5B8B\4F53";font-size:12px;}
+button {cursor:pointer;outline:none; blr:expression(this.hideFocus=true);}
+input::-moz-focus-inner,
+button::-moz-focus-inner{border:0;}
+textarea {overflow:auto;}
+article,aside,dialog,footer,header,section,nav,figure,menu,time,hgroup{display:block}
+table{border-collapse:collapse; border-spacing: 0;}
+.clearfix:after{content:"."; display:block; height:0;clear:both;visibility:hidden;}
+* html .clearfix{height:1%;}
+*+html .clearfix{height:1%;}
+a{color:#000;text-decoration:none;outline:none;-moz-transition: all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+a:hover{text-decoration:underline;}
+::-moz-selection{background:#3a8ecf;color:#fff;}	
+::-webkit-selection{background:#3a8ecf;color:#fff;}	
+::selection{background:#3a8ecf;color:#fff;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{display:inline;float:left;}
+.fr{display:inline;float:right;}
+.relative{position:relative;}
+/* reset */
+
+body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+html,body{background-image: url(../images/bg.png);}
+header{
+    height:45px;
+    background:-moz-linear-gradient(top, rgb(56, 56, 56), rgb(24, 24, 24) 50%);
+    background:-webkit-gradient(linear, 0 0, 0 50%, from(rgb(56, 56, 56)), to(rgb(24, 24, 24)));
+    text-align:center;
+    line-height:45px;
+}
+header a{font-size:2em;color:#fff;text-shadow:0 1px 1px #000;}
+header a:hover{color:#fff;text-decoration:none;}
+header em{display:inline-block;width:16px;height:16px;cursor:pointer;margin-left:5px;background:url(../images/chart.png);vertical-align:middle;position:relative;top:-3px;-moz-transition: all 0.5s ease-in-out 0s;-webkit-transition:all 0.5s ease-in-out 0s;}
+header em:hover{
+	-webkit-transform: rotate(360deg);
+	-moz-transform: rotate(360deg);
+}
+
+
+

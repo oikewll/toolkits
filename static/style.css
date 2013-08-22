@@ -1,0 +1,41 @@
+/*@import'http://1.goochin.sinaapp.com/svn/reset.css'*/
+@charset "utf-8";
+html{-moz-background-clip:border; -moz-background-inline-policy:continuous;-moz-background-origin:padding;color:#000;overflow-x:hidden;overflow-y:scroll;background:#fff;_background-image:url(about:blank);_background-attachment:fixed;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{font:12px "\5FAE\8F6F\96C5\9ED1", Verdana, Geneva, sans-serif, "\5B8B\4F53";}
+fieldset,img{border:none;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input,button,textarea,select{font-weight:inherit;font-size:100%;vertical-align:middle;outline:none;}
+button,input,textarea{font-family:Tahoma, Geneva, "\5B8B\4F53";font-size:12px;}
+button {cursor:pointer;outline:none; blr:expression(this.hideFocus=true);}
+textarea {overflow:auto;}
+article,aside,dialog,footer,header,section,nav,figure,menu,time,hgroup{display:block}
+table{border-collapse:collapse; border-spacing: 0;}
+.clearfix:after{content:"."; display:block; height:0;clear:both;visibility:hidden;}
+*html .clearfix{height:1%;}
+*+html .clearfix{height:1%;}
+::-webkit-scrollbar-track-piece{background-color:#fff;-webkit-border-radius:10;}
+::-webkit-scrollbar{width:12px;}
+::-webkit-scrollbar-thumb:vertical{background-color:#ddd;-webkit-border-radius:10px;outline:2px solid #fff;outline-offset:-2px;border: 2px solid #fff;border-radius:10;}
+::-webkit-scrollbar-thumb:hover{background-color:#cecece;-webkit-border-radius:10px;}/*滚动条的hover样式*/
+::-webkit-scrollbar-thumb:horizontal{width:5px;background-color:#ccc;-webkit-border-radius:10px;}/*水平滚动条的样式*/
+a{color:#000;text-decoration:none;outline:none;-moz-transition: all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+a:hover{text-decoration:underline;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{display:inline;float:left;}
+.fr{display:inline;float:right;}
+.relative{position:relative;}
+/* reset */
+
+.formType{width:430px;margin:50px auto 0 auto;}
+h1.slogen{font-size:22px;color:#333;margin-bottom:25px;border-bottom:1px solid #ddd;padding-bottom:5px;}
+ul.tabCont{width:520px;height:520px;margin:100px auto 0 auto;}
+ul.tabCont li{width:48px;display:inline;float:left;margin-right:20px;}
+ul.tabCont li a{color:#555;}
+ul.tabCont li a img{width:48px;height:48px;margin-bottom:5px;}
+ul.tabCont li a cite{display:block;height:25px;width:48px;text-align:center;line-height:25px;}
+

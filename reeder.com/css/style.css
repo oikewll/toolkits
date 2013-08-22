@@ -1,0 +1,60 @@
+@charset "utf-8";
+html{-moz-background-clip:border; -moz-background-inline-policy:continuous;-moz-background-origin:padding;color:#000;overflow-x:hidden;overflow-y:scroll;background:#fff;_background-image:url(about:blank);_background-attachment:fixed;}
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td{margin:0;padding:0;}
+body{font:12px "\5FAE\8F6F\96C5\9ED1", Verdana, Geneva, sans-serif, "\5B8B\4F53";}
+fieldset,img{border:none;}
+ul,li{list-style:none;}
+em,i{font-style:normal;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+input,button,textarea,select{font-weight:inherit;font-size:100%;vertical-align:middle;outline:none;}
+button,input,textarea{font-family:Tahoma, Geneva, "\5B8B\4F53";font-size:12px;}
+button {cursor:pointer;outline:none; blr:expression(this.hideFocus=true);}
+textarea {overflow:auto;}
+article,aside,dialog,footer,header,section,nav,figure,menu,time,hgroup{display:block}
+table{border-collapse:collapse; border-spacing: 0;}
+.clearfix:after{content:"."; display:block; height:0;clear:both;visibility:hidden;}
+*html .clearfix{height:1%;}
+*+html .clearfix{height:1%;}
+html{-ms-user-select:none;-moz-user-selecter:none;-webkit-user-selecter:none;}
+::-webkit-scrollbar-track-piece{background-color:#fff;-webkit-border-radius:10;}
+::-webkit-scrollbar{width:12px;}
+::-webkit-scrollbar-thumb:vertical{background-color:#ddd;-webkit-border-radius:10px;outline:2px solid #fff;outline-offset:-2px;border: 2px solid #fff;border-radius:10;}
+::-webkit-scrollbar-thumb:hover{background-color:#cecece;-webkit-border-radius:10px;}/*滚动条的hover样式*/
+::-webkit-scrollbar-thumb:horizontal{width:5px;background-color:#ccc;-webkit-border-radius:10px;}/*水平滚动条的样式*/
+a{color:#000;text-decoration:none;outline:none;-moz-transition: all 0.2s ease-in-out 0s;-webkit-transition:all 0.2s ease-in-out 0s;}
+a:hover{text-decoration:underline;}
+.tl{text-align:left;}
+.tc{text-align:center;}
+.tr{text-align:right;}
+.fl{display:inline;float:left;}
+.fr{display:inline;float:right;}
+.relative{position:relative;}
+/* reset */
+
+h1.logo{font-size:40px;color:rgba(0,0,0,0.2);margin-bottom:20px;}
+.wrapper{width:480px;margin:0 auto;padding:50px 0;}
+article{text-align:justify;padding-bottom:10px;}
+h2.title{font-size:16px;border-bottom:1px solid #ddd;margin-bottom:10px;color:#555;position:relative;z-index:1;cursor:pointer;}
+h2.title a{color:#555;}
+h2.title em{color:#999;margin-left:10px;position:absolute;right:20px;font-weight:normal;font-size:12px;}
+h2.title em:after{display:block;content:'';width:0px;height:0px;overflow:hidden;position:absolute;border-width:5px;border-style:solid dashed dashed dashed;border-color:#999 transparent transparent transparent;right:-20px;top:45%;cursor:pointer;}
+h2.title em.cols:after{border-style:dashed dashed solid dashed;border-color:transparent transparent #999 transparent;top:35%;}
+.summary{line-height:20px;text-align:justify;color:#333;}
+.summary img{max-width:98%;padding:2px;border:1px solid #ddd;border-radius:3px;background:#fff;display:block;}
+/*.summary img{height:0px;width:0px;border:2px solid #e05134;border-radius:5px;overflow:hidden;display:none!important;vertical-align:middle;margin:0 2px!important;}*/
+.summary a{border-bottom:1px dotted #ddd;}
+.contents{display:none;}
+article.active .summary{display:none;}
+article.active .contents{display:block;}
+article.active h2.title{color:#e05134;}
+.contents{line-height:20px;color:#333;}
+.contents h1, .contents h2, .contents h3, .contents h4, .contents h5{font-size:12px;border:0px;cursor:text;margin-bottom:0px;color:#333!important;text-align:left!important;}
+.contents img{max-width:98%;padding:2px;border:1px solid #ddd;border-radius:3px;background:#fff;display:block;}
+.contents a{color:#0088cc;}
+
+.mask{background:#000;opacity:0.2;filter:alpla(opacity=20);position:absolute;z-index:999;left:0;top:0;width:100%;height:100%;_height:99999px;}
+#ifie{width:700px;height:430px;background:#fff;border-radius:10px;position:absolute;z-index:1000;left:50%;top:50%;margin:-215px 0 0 -350px;box-shadow:0 0 20px rgba(0,0,0,0.3);}
+#ifie h2{font-size:26px;text-align:center;color:#333;padding:20px 0;}
+#ifie ul{padding:30px 0 0 0;zoom:1;height:142px;margin-bottom:40px;}
+#ifie ul li{display:inline;width:142px;height:132px;float:left;margin-left:25px;}
+#ifie p{text-align:center;font-size:14px;color:#666;margin-bottom:20px;}
