@@ -1,0 +1,6 @@
+.svn
+.svnignore
+app.conf
+*.conf
+wodi/
+.DS_Store
